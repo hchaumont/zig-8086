@@ -79,81 +79,81 @@ fn decodeInstructionStream(array_list: *std.ArrayList(u8), emulate: bool) !void 
 
 // ---------------- Tests ----------------
 test "listing 37" {
-    const filename = "./data/listing_0037_single_register_mov";
+    const filename = "./computer_enhance/perfaware/part1/listing_0037_single_register_mov";
     try decodeFile(filename, false);
 }
 
 test "listing 38" {
-    const filename = "./data/listing_0038_many_register_mov";
+    const filename = "./computer_enhance/perfaware/part1/listing_0038_many_register_mov";
     try decodeFile(filename, false);
 }
 
 test "listing 39" {
-    const filename = "./data/listing_0039_more_movs";
+    const filename = "./computer_enhance/perfaware/part1/listing_0039_more_movs";
     try decodeFile(filename, false);
 }
 
 test "listing 40" {
-    const filename = "./data/listing_0040_challenge_movs";
+    const filename = "./computer_enhance/perfaware/part1/listing_0040_challenge_movs";
     try decodeFile(filename, false);
 }
 
 test "listing 41" {
-    const filename = "./data/listing_0041_add_sub_cmp_jnz";
+    const filename = "./computer_enhance/perfaware/part1/listing_0041_add_sub_cmp_jnz";
     try decodeFile(filename, false);
 }
 
 test "listing 43 decode" {
-    const filename = "./data/listing_0043_immediate_movs";
+    const filename = "./computer_enhance/perfaware/part1/listing_0043_immediate_movs";
     try decodeFile(filename, false);
 }
 
 test "listing 43 emulate" {
-    const filename = "./data/listing_0043_immediate_movs";
+    const filename = "./computer_enhance/perfaware/part1/listing_0043_immediate_movs";
     try decodeFile(filename, true);
 }
 
 test "listing 44 decode" {
-    const filename = "./data/listing_0044_register_movs";
+    const filename = "./computer_enhance/perfaware/part1/listing_0044_register_movs";
     try decodeFile(filename, false);
 }
 
 test "listing 44 emulate" {
-    const filename = "./data/listing_0044_register_movs";
+    const filename = "./computer_enhance/perfaware/part1/listing_0044_register_movs";
     try decodeFile(filename, true);
 }
 
 test "listing 46 decode" {
-    const filename = "./data/listing_0046_add_sub_cmp";
+    const filename = "./computer_enhance/perfaware/part1/listing_0046_add_sub_cmp";
     try decodeFile(filename, false);
 }
 
 test "listing 46 emulate" {
-    const filename = "./data/listing_0046_add_sub_cmp";
+    const filename = "./computer_enhance/perfaware/part1/listing_0046_add_sub_cmp";
     try decodeFile(filename, true);
 }
 
 test "listing 48 emulate" {
-    const filename = "./data/listing_0048_ip_register";
+    const filename = "./computer_enhance/perfaware/part1/listing_0048_ip_register";
     try decodeFile(filename, true);
 }
 
 test "listing 49 emulate" {
-    const filename = "./data/listing_0049_conditional_jumps";
+    const filename = "./computer_enhance/perfaware/part1/listing_0049_conditional_jumps";
     try decodeFile(filename, true);
 }
 
 test "listing 51 emulate" {
-    const filename = "./data/listing_0051_memory_mov";
+    const filename = "./computer_enhance/perfaware/part1/listing_0051_memory_mov";
     try decodeFile(filename, true);
 }
 
 test "listing 52 emulate" {
-    const filename = "./data/listing_0052_memory_add_loop";
+    const filename = "./computer_enhance/perfaware/part1/listing_0052_memory_add_loop";
     try decodeFile(filename, true);
 }
 
 test "listing 54 emulate" {
-    const filename = "./data/listing_0054_draw_rectangle";
+    const filename = "./computer_enhance/perfaware/part1/listing_0054_draw_rectangle";
     try decodeFile(filename, true);
 }
